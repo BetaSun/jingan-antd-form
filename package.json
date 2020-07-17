@@ -1,0 +1,59 @@
+{
+  "name": "@jingan/antd-form",
+  "version": "0.0.1",
+  "description": "基于antd封装的表单组件",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.dev.js --color",
+    "build": "webpack --config config/webpack.prod.js",
+    "babel": "babel src/index.js --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetaSun/jingan-antd-form.git"
+  },
+  "keywords": [
+    "antd",
+    "form",
+    "react"
+  ],
+  "author": "BetaSun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetaSun/jingan-antd-form/issues"
+  },
+  "homepage": "https://github.com/BetaSun/jingan-antd-form#readme",
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.10.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "style-loader": "^1.2.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  }
+}
