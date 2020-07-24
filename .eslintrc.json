@@ -7,10 +7,12 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "no-console": "off"
+    "no-console": "warn",
+    "react/display-name": "off"
   },
   "parser": "babel-eslint",
   "parserOptions": {
